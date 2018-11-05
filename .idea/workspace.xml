@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc14daaa-5a87-4182-b30a-fc64670d6e0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/facenet" beforeDir="false" afterPath="$PROJECT_DIR$/facenet" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/facenet/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/facenet/.project" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/facenet/.pydevproject" beforeDir="false" />
@@ -88,6 +89,7 @@
       <change beforePath="$PROJECT_DIR$/facenet/tmp/visualize_vgg_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/visualize_vgg_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/facenet/tmp/visualize_vggface.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/visualize_vggface.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/facenet/util/plot_learning_curves.m" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/util/plot_learning_curves.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/test2.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +137,7 @@
         <entry file="file://$PROJECT_DIR$/Filter_Layer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="85" column="45" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="85" selection-end-column="45" />
+              <caret line="85" column="45" selection-start-line="82" selection-start-column="1" selection-end-line="85" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -152,11 +154,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lr_and_rf_init.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="30" lean-forward="true" selection-start-line="7" selection-end-line="24" selection-end-column="30" />
+              <caret line="24" column="30" selection-start-line="7" selection-end-line="24" selection-end-column="30" />
               <folding>
                 <element signature="e#88#140#0" expanded="true" />
               </folding>
@@ -180,7 +182,7 @@
         <entry file="file://$PROJECT_DIR$/traintest_prep.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="59">
-              <caret line="90" column="38" lean-forward="true" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+              <caret line="90" column="38" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -209,9 +211,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/integrate.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -242,7 +248,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/facenet" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -409,9 +415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/integrate.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/inception_blocks_v2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3111">
@@ -462,24 +465,31 @@
     <entry file="file://$PROJECT_DIR$/traintest_prep.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
-          <caret line="90" column="38" lean-forward="true" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+          <caret line="90" column="38" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Filter_Layer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="85" column="45" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="85" selection-end-column="45" />
+          <caret line="85" column="45" selection-start-line="82" selection-start-column="1" selection-end-line="85" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lr_and_rf_init.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="7" selection-end-line="24" selection-end-column="30" />
+          <caret line="24" column="30" selection-start-line="7" selection-end-line="24" selection-end-column="30" />
           <folding>
             <element signature="e#88#140#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integrate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
