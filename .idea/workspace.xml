@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc14daaa-5a87-4182-b30a-fc64670d6e0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/facenet/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/.pydevproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/.pylintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/contributed/batch_represent.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/contributed/batch_represent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/contributed/cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/contributed/cluster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/contributed/clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/contributed/clustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/contributed/export_embeddings.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/contributed/export_embeddings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/contributed/face.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/contributed/face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/contributed/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/contributed/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/contributed/real_time_face_recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/contributed/real_time_face_recognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/data/learning_rate_retrain_tripletloss.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/data/learning_rate_retrain_tripletloss.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/data/learning_rate_schedule_classifier_casia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/data/learning_rate_schedule_classifier_casia.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/data/learning_rate_schedule_classifier_msceleb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/data/learning_rate_schedule_classifier_msceleb.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/data/learning_rate_schedule_classifier_vggface2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/data/learning_rate_schedule_classifier_vggface2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/data/pairs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/data/pairs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/align/align_dataset_mtcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/align/align_dataset_mtcnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/align/detect_face.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/align/detect_face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/calculate_filtering_metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/calculate_filtering_metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/compare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/decode_msceleb_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/decode_msceleb_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/download_and_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/download_and_extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/facenet.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/facenet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/freeze_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/freeze_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/generative/calculate_attribute_vectors.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/generative/calculate_attribute_vectors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/generative/models/dfc_vae.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/generative/models/dfc_vae.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/generative/models/dfc_vae_large.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/generative/models/dfc_vae_large.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/generative/models/dfc_vae_resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/generative/models/dfc_vae_resnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/generative/models/vae_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/generative/models/vae_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/generative/modify_attribute.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/generative/modify_attribute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/generative/train_vae.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/generative/train_vae.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/lfw.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/lfw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/models/dummy.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/models/dummy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/models/inception_resnet_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/models/inception_resnet_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/models/inception_resnet_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/models/inception_resnet_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/models/squeezenet.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/models/squeezenet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/train_softmax.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/train_softmax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/train_tripletloss.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/train_tripletloss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/src/validate_on_lfw.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/src/validate_on_lfw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/test/batch_norm_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/test/batch_norm_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/test/center_loss_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/test/center_loss_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/test/restore_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/test/restore_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/test/train_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/test/train_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/test/triplet_loss_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/test/triplet_loss_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/align_dataset.m" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/align_dataset.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/align_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/align_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/align_dlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/align_dlib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/cacd2000_split_identities.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/cacd2000_split_identities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/dataset_read_speed.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/dataset_read_speed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/deepdream.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/deepdream.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/detect_face_v1.m" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/detect_face_v1.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/detect_face_v2.m" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/detect_face_v2.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/download_vgg_face_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/download_vgg_face_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/funnel_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/funnel_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/invariance_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/invariance_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/mnist_center_loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/mnist_center_loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/mnist_noise_labels.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/mnist_noise_labels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/mtcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/mtcnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/mtcnn_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/mtcnn_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/mtcnn_test_pnet_dbg.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/mtcnn_test_pnet_dbg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/nn2.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/nn2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/nn3.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/nn3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/nn4.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/nn4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/nn4_small2_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/nn4_small2_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/random_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/random_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/rename_casia_directories.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/rename_casia_directories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/seed_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/seed_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/select_triplets_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/select_triplets_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/test_align.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/test_align.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/test_invariance_on_lfw.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/test_invariance_on_lfw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/vggface16.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/vggface16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/vggverydeep19.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/vggverydeep19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/visualize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/visualize_vgg_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/visualize_vgg_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/tmp/visualize_vggface.py" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/tmp/visualize_vggface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facenet/util/plot_learning_curves.m" beforeDir="false" afterPath="$PROJECT_DIR$/facenet/util/plot_learning_curves.m" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1289051712">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="115" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="115" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Filter_Layer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="85" column="45" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="85" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inception_blocks_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3111">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lr_and_rf_init.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="7" selection-end-line="24" selection-end-column="30" />
+              <folding>
+                <element signature="e#88#140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/full.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-843">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+              <folding>
+                <element signature="e#92#113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/traintest_prep.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="90" column="38" lean-forward="true" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extract_face_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detect_face.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="282" column="42" selection-start-line="282" selection-start-column="42" selection-end-line="282" selection-end-column="42" />
+              <folding>
+                <element signature="e#1261#1299#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/integrate.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Face_Rec.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3652">
+              <caret line="300" column="4" selection-start-line="300" selection-start-column="4" selection-end-line="300" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fr_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1662">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>load_model</find>
+      <find>detect</find>
+      <find>det1</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/facenet" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Face_Rec.py" />
+        <option value="$PROJECT_DIR$/fr_utils.py" />
+        <option value="$PROJECT_DIR$/extract_face_v2.py" />
+        <option value="$PROJECT_DIR$/full.py" />
+        <option value="$PROJECT_DIR$/traintest_prep.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1439" />
+    <option name="height" value="835" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MH4510 Face Recognition-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MH4510 Face Recognition-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MH4510 Face Recognition-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MH4510 Face Recognition-2" type="462c0819:PsiDirectoryNode" />
+              <item name="facenet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MH4510 Face Recognition-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MH4510 Face Recognition-2" type="462c0819:PsiDirectoryNode" />
+              <item name="facenet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MH4510 Face Recognition-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MH4510 Face Recognition-2" type="462c0819:PsiDirectoryNode" />
+              <item name="facenet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="align" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MH4510 Face Recognition-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MH4510 Face Recognition-2" type="462c0819:PsiDirectoryNode" />
+              <item name="fuckedup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MH4510 Face Recognition-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MH4510 Face Recognition-2" type="462c0819:PsiDirectoryNode" />
+              <item name="images_bounded" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MH4510 Face Recognition-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MH4510 Face Recognition-2" type="462c0819:PsiDirectoryNode" />
+              <item name="images_raw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MH4510 Face Recognition-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MH4510 Face Recognition-2" type="462c0819:PsiDirectoryNode" />
+              <item name="images_rotated" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MH4510 Face Recognition-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MH4510 Face Recognition-2" type="462c0819:PsiDirectoryNode" />
+              <item name="old scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc14daaa-5a87-4182-b30a-fc64670d6e0b" name="Default Changelist" comment="" />
+      <created>1541250367749</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541250367749</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1439" height="835" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340015" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" weight="0.32999283" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Face_Rec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3652">
+          <caret line="300" column="4" selection-start-line="300" selection-start-column="4" selection-end-line="300" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integrate.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inception_blocks_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3111">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detect_face.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="282" column="42" selection-start-line="282" selection-start-column="42" selection-end-line="282" selection-end-column="42" />
+          <folding>
+            <element signature="e#1261#1299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1662">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extract_face_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/full.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-843">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="e#92#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traintest_prep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="90" column="38" lean-forward="true" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Filter_Layer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="85" column="45" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="85" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lr_and_rf_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="7" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="e#88#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
